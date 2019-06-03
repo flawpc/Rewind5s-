@@ -1,0 +1,1 @@
+javascript:for(i=0; o=document.getElementsByTagName("object")[i]; ++i) try{F(o)}catch(e){}; for(i=0; o=document.getElementsByTagName("embed")[i]; ++i) try{F(o)}catch(e){}; function F(o){ o.GotoFrame(o.CurrentFrame() - 150); if(o.timer){clearInterval(o.timer); o.timer=0; } o.Play(); }
